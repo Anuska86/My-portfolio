@@ -1,0 +1,91 @@
+/*Base*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  background: linear-gradient(135deg, #74c7db, #9ed0e7);
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(135deg, #74c7db, #9ed0e7);
+  color: #0d0d0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 300px;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.main-content {
+  margin: auto;
+}
+
+/*Text*/
+
+h1 {
+  color: #6d597a;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #b56576;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 42px;
+  font-weight: 300;
+}
+
+h3 {
+  color: #023047;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 36px;
+  font-weight: 900;
+}
+
+small {
+  font-size: 16px;
+  color: #e56b6f;
+}
+
+.bold-span {
+  font-weight: 900;
+}
+
+/*Links*/
+
+a {
+  color: #da627d;
+}
+
+a:hover {
+  color: #a53860;
+}
+
+/*Images*/
+
+.portfolio-img {
+  width: 300px;
+  border-radius: 50%;
+  border: 3px solid #6d597a;
+}
+
+/* 
+
+CSS HEX 
+
+
+--yinmn-blue: #355070ff;
+--chinese-violet: #6d597aff;
+--china-rose: #b56576ff;
+--light-coral: #e56b6fff;
+--buff: #eaac8bff;
+
+*/
