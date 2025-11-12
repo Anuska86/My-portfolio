@@ -51,6 +51,17 @@ body {
 
 /*Headings*/
 
+header {
+  padding: 40px 0;
+  margin-bottom: 20px;
+  color: var(--violet);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-size: 70px;
+  font-weight: 400;
+  background-color: var(--cream);
+  text-align: center;
+}
+
 h1 {
   margin-bottom: 20px;
   color: var(--cream);
