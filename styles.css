@@ -171,6 +171,22 @@ a:focus {
   text-decoration: underline;
 }
 
+.btn-link {
+  border: 1px solid #6d597a;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  background-color: #7a678a;
+  color: #fcd5ce;
+  display: inline-block;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  background-color: #b56576;
+  color: #ffb4a2;
+  text-decoration: none;
+}
+
 /*Images*/
 
 .portfolio-img {
