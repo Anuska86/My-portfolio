@@ -31,8 +31,9 @@ body {
   text-align: center;
   color: var(--charcoal);
   font-family: "Roboto", sans-serif;
-  font-size: 21px;
-  font-weight: 300;
+  font-size: 18x;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
 /*Typography*/
@@ -45,14 +46,19 @@ body {
 /*Headings*/
 
 header {
-  padding: 40px 0;
-  margin-bottom: 20px;
+  padding: 20px 0;
+  margin-bottom: 0;
   color: var(--violet);
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  font-size: 70px;
-  font-weight: 400;
+  text-shadow: none;
+  font-size: 32px;
+  font-weight: 500;
   background-color: var(--cream);
   text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 h1 {
@@ -99,11 +105,16 @@ small {
 /*LAYOUT*/
 
 .main-content {
-  padding: 20px 0;
+  padding-top: 0;
 }
 
 .container {
   width: 700px;
+  margin: 0 auto;
+}
+
+.container-header {
+  width: 700;
   margin: 0 auto;
 }
 
@@ -112,8 +123,19 @@ small {
 /*Avatar section*/
 
 .avatar-section {
-  background-color: var(--violet-light);
-  padding: 60px 20px;
+  background-color: var(--violet);
+  padding: 80px 20px 60px;
+}
+
+.avatar-section h1 {
+  color: var(--rose-light);
+  text-shadow: none;
+  font-size: 52px;
+}
+
+.avatar-section .bold-span.name {
+  color: var(--cream);
+  font-weight: 900;
 }
 
 /*Presentation section*/
@@ -175,31 +197,38 @@ a {
 a:hover,
 a:focus {
   color: var(--violet);
-  text-decoration: underline;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .btn-link {
-  border: 1px solid #6d597a;
-  padding: 10px 20px 10px 20px;
-  border-radius: 8px;
-  background-color: #7a678a;
-  color: #fcd5ce;
-  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 50px;
+  background-color: var(--rose);
+  color: var(--cream);
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 .btn-link:hover,
 .btn-link:focus {
-  background-color: #b56576;
-  color: #6d597a;
+  background-color: var(--coral);
+  color: var(--cream);
   text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 /*Images*/
 
 .portfolio-img {
-  width: 300px;
+  width: 250px;
   border-radius: 50%;
   border: 3px solid var(--rose-light);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
